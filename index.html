@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jquery</title>
+    <!--google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css files: fontawsome , bootstrap , my css -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- owl carousel -->
+    <link
+      rel="stylesheet"
+      href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
+    />
+  </head>
+  <body>
+    <!-- section-one -->
+    <div id="header" class="sectionOne overflow-hidden">
+      <div class="owl-carousel">
+        <div>
+          <img
+            class="imgo"
+            src="./images/Newfolder/444.jpg"
+            alt="hotel front"
+          />
+        </div>
+        <div>
+          <img class="imgo" src="./images/Newfolder/1.jpg" alt="room image" />
+        </div>
+        <div>
+          <img class="imgo" src="./images/Newfolder/10.jpg" alt="room image" />
+        </div>
+        <div>
+          <img class="imgo" src="./images/Newfolder/7.webp" alt="room image" />
+        </div>
+        <div>
+          <img class="imgo" src="./images/Newfolder/11.webp" alt="room image" />
+        </div>
+      </div>
+      <section class="inner-sectionone">
+        <div class="nav-side">
+          <ul>
+            <li class="closebtnnav">
+              <a href="#" class="closebtnnav closebtn">×</a>
+            </li>
+            <li class="closebtnnav">
+              <a class="navside-link" href="#header">Home</a>
+            </li>
+            <li class="closebtnnav">
+              <a class="navside-link" href="#rooms">Premium Rooms</a>
+            </li>
+            <li class="closebtnnav">
+              <a class="navside-link" href="#Restaurant">Restaurants</a>
+            </li>
+            <li class="closebtnnav">
+              <a class="navside-link" href="#sbranches">TOP-VISITED Branches</a>
+            </li>
+            <li class="closebtnnav">
+              <a class="navside-link" href="#Honeymoon">Honeymoon Offers</a>
+            </li>
+            <li class="closebtnnav">
+              <a class="navside-link" href="#Branches">All Branches</a>
+            </li>
+            <li class="closebtnnav">
+              <a class="navside-link" href="#contact">Contact Us</a>
+            </li>
+            <li class="closebtnnav">
+              <a class="navside-link text-warning" href="signin.html">Login</a>
+            </li>
+            <li class="closebtnnav">
+              <a class="navside-link text-success" href="signup.html"
+                >Create Account</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="header-content">
+          <div class="head-hotel mx-auto py-5">
+            <h1 class="text-center pt-5">AL Auberge Hotel</h1>
+            <p class="text-center mt-2 mb-0 pb-5">
+              Let's have Fun
+              <span><i class="fa-solid fa-face-smile-wink"></i></span>
+            </p>
+          </div>
+          <span class="nav-open ps-sm-5 mt-0"
+            ><i class="fa-solid fa-bars"></i> open</span
+          >
+        </div>
+      </section>
+    </div>
+    <!-- section sarayer -->
+    <section id="rooms">
+      <div class="container-fluid my-5">
+        <div class="tiltle">
+          <h2 class="text-start text-decoration-underline py-3 my-3">
+            Some Of Our Premium Rooms
+          </h2>
+        </div>
+        <div class="row g-3">
+          <div class="col-sm-6 col-lg-3">
+            <div class="inner position-relative overflow-hidden bord">
+              <img
+                width="100%"
+                height="350px"
+                src="./images/Newfolder/1.jpg"
+                alt="hotel front"
+              />
+
+              <div class="layer text-center h2 text-yellow">150$</div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="inner position-relative overflow-hidden bord">
+              <img
+                width="100%"
+                height="350px"
+                src="./images/Newfolder/10.jpg"
+                alt="hotel front"
+              />
+
+              <div class="layer text-center h2 text-yellow">180$</div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="inner position-relative overflow-hidden bord">
+              <img
+                width="100%"
+                height="350px"
+                src="./images/Newfolder/11.webp"
+                alt="hotel front"
+              />
+
+              <div class="layer text-center h2 text-yellow">200$</div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="inner position-relative overflow-hidden bord">
+              <img
+                width="100%"
+                height="350px"
+                src="./images/Newfolder/7.webp"
+                alt="hotel front"
+              />
+
+              <div class="layer text-center h2 text-yellow">200$</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section restrant -->
+    <section id="Restaurant">
+      <div class="container-fluid my-5">
+        <div class="tiltle">
+          <h2 class="text-start text-decoration-underline py-3 my-3">
+            Restaurants
+          </h2>
+        </div>
+        <div class="row g-3">
+          <div class="col-md-4">
+            <div class="rounded-3 bord overflow-hidden">
+              <img
+                width="100%"
+                height="350px"
+                src="./images/Newfolder/sarayer/restrant1.webp"
+                alt="hotel front"
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="rounded-3 bord overflow-hidden">
+              <img
+                width="100%"
+                height="350px"
+                src="./images/Newfolder/sarayer/restrant3.webp"
+                alt="hotel front"
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="rounded-3 bord overflow-hidden">
+              <img
+                width="100%"
+                height="350px"
+                src="./images/Newfolder/sarayer/restrant2.webp"
+                alt="hotel front"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section-two (same as Accordion in bootstrap) -->
+    <section class="the-accor">
+      <div id="sbranches" class="accor my-3 p-3">
+        <div class="title py-3 text-center">
+          <h2 class="text-start text-decoration-underline py-2">
+            TOP-VISITED Branches around the world
+          </h2>
+        </div>
+        <div class="accor-body rounded-5 overflow-hidden">
+          <h3 class="py-1 first">Egypt</h3>
+          <div class="div-first myBrother">
+            <div class="inner py-2 py-md-3 container-fluid">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="owl-carousel">
+                    <div>
+                      <img
+                        class="rounded-5"
+                        src="./images/Newfolder/egypt/magispy.jpg"
+                        alt="Egypt hotel"
+                      />
+                    </div>
+                    <div>
+                      <img
+                        class="rounded-5"
+                        src="./images/Newfolder/egypt/axor.jpg"
+                        alt="Egypt hotel"
+                      />
+                    </div>
+                    <div>
+                      <img
+                        class="rounded-5"
+                        src="./images/Newfolder/egypt/mut.jpg"
+                        alt="Egypt hotel"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-6 d-flex justify-content-center align-items-center"
+                >
+                  <div>
+                    <h4
+                      class="text-start text-decoration-underline text-warning-emphasis"
+                    >
+                      Egypt :
+                    </h4>
+                    <p>
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3 class="py-1 second">Maldives</h3>
+          <div class="div-second hid myBrother">
+            <div class="inner py-2 py-md-3 container-fluid">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="owl-carousel">
+                    <div>
+                      <img
+                        class="rounded-5"
+                        src="./images/Newfolder/muld/muldevs.jpg"
+                        alt="Maldives hotel"
+                      />
+                    </div>
+                    <div>
+                      <img
+                        class="rounded-5"
+                        src="./images/Newfolder/muld/muld.JPG"
+                        alt="Maldives hotel"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-6 d-flex justify-content-center align-items-center"
+                >
+                  <div>
+                    <h4
+                      class="text-start text-decoration-underline text-warning-emphasis"
+                    >
+                      Maldives :
+                    </h4>
+                    <p>
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3 class="py-1 third">Bali</h3>
+          <div class="div-third hid myBrother">
+            <div class="inner py-2 py-md-3 container-fluid">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="owl-carousel">
+                    <div>
+                      <img
+                        class="rounded-5"
+                        src="./images/Newfolder/bali/bali.jpg"
+                        alt="bali hotel"
+                      />
+                    </div>
+                    <div>
+                      <img
+                        class="rounded-5"
+                        src="./images/Newfolder/bali/balli.jpg"
+                        alt="bali hotel"
+                      />
+                    </div>
+                    <div>
+                      <img
+                        class="rounded-5"
+                        src="./images/Newfolder/bali/bali2.jpg"
+                        alt="bali hotel"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-6 d-flex justify-content-center align-items-center"
+                >
+                  <div>
+                    <h4
+                      class="text-start text-decoration-underline text-warning-emphasis"
+                    >
+                      Bali :
+                    </h4>
+                    <p>
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3 class="py-1 fourth">Paris</h3>
+          <div class="div-fourth hid myBrother">
+            <div class="inner py-2 py-md-3 container-fluid">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="owl-carousel">
+                    <div>
+                      <img
+                        class="rounded-5"
+                        src="./images/Newfolder/paris/paris.jpg"
+                        alt="paris hotel"
+                      />
+                    </div>
+                    <div>
+                      <img
+                        class="rounded-5"
+                        src="./images/Newfolder/paris/paris2.jpg"
+                        alt="paris hotel"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-6 d-flex justify-content-center align-items-center"
+                >
+                  <div>
+                    <h4
+                      class="text-start text-decoration-underline text-warning-emphasis"
+                    >
+                      Paris :
+                    </h4>
+                    <p>
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section-three -->
+    <div id="Honeymoon" class="py-5">
+      <div class="header-counts my-3">
+        <h2 class="text-decoration-underline text-start">
+          Honeymoon Trip (Eid Al-Fitr ):
+        </h2>
+        <h6 class="text-end my-4 my-md-3">
+          <span class="bg-success-subtle rounded-5 p-2">
+            Offer 20% Eid Al-Fitr El-Mubarak
+          </span>
+        </h6>
+      </div>
+      <div class="counter text-light py-3">
+        <div class="title-count mx-2">
+          <h3 class="text-center">Maldives trip</h3>
+        </div>
+        <div class="container py-md-5 w-75 mx-auto">
+          <div class="row text-center g-2 g-md-4">
+            <div class="col-6 col-md-3">
+              <div class="py-md-5 bord shadow-lg rounded-3">
+                <span id="day"></span>
+              </div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="py-md-5 bord shadow-lg rounded-3">
+                <span id="hour"></span>
+              </div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="py-md-5 bord shadow-lg rounded-3">
+                <span id="mint"></span>
+              </div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="py-md-5 bord shadow-lg rounded-3">
+                <span id="sec"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section branches -->
+    <section id="Branches">
+      <div class="accor p-3">
+        <div class="title py-3 text-center">
+          <h2 class="text-start text-decoration-underline py-2">
+            All our Branches around the world
+          </h2>
+          <div class="row g-3 text-yellow-dark">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="bord py-4 branch">
+                <h4>Egypt</h4>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="bord py-4 branch">
+                <h4>Maldives</h4>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="bord py-4 branch">
+                <h4>Bali</h4>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="bord py-4 branch">
+                <h4>Paris</h4>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="bord py-4 branch">
+                <h4>America</h4>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="bord py-4 branch">
+                <h4>Canada</h4>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="bord py-4 branch">
+                <h4>Morocco</h4>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="bord py-4 branch">
+                <h4>Tunisia</h4>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="bord py-4 branch">
+                <h4>Qatar</h4>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="bord py-4 branch">
+                <h4>Dubai</h4>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="bord py-4 branch">
+                <h4>Kingdo Of Saudi Arabia</h4>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="bord py-4 branch">
+                <h4>United Arab irates</h4>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="bord py-4 branch">
+                <h4>Britian</h4>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="bord py-4 branch">
+                <h4>Turkiye</h4>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="bord py-4 branch">
+                <h4>Lebanon</h4>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="bord py-4 branch">
+                <h4>Spain</h4>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="bord py-4 branch">
+                <h4>Milan</h4>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="bord py-4 branch">
+                <h4>Roma</h4>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="bord py-4 branch">
+                <h4>london</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section-four  -->
+    <div id="contact" class="contact">
+      <div class="container-fluid my-md-5 my-2">
+        <div class="contact-title">
+          <h2 class="text-start text-decoration-underline my-2">JOIN US</h2>
+          <p class="lead text-center">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+          </p>
+        </div>
+        <div class="row px-3">
+          <div class="col-6 pe-2">
+            <div class="info">
+              <div class="contact-prag">
+                <h3>CONTACT INFO</h3>
+                <p class="mb-0 pb-0">
+                  <span class="ps-3">Why</span> you should hire me writeup Lorem
+                  ipsum dolor sit amet,consectetuer adipiscing elit. Aenean
+                  commodo ligula eget dolor. Aenean massa. Cum sociis
+                </p>
+                <p class="mt-0 pt-0 text-center">
+                  natoque nascetur ridiculus mus.
+                </p>
+              </div>
+              <ul class="ms-md-5 my-md-5 data">
+                <li class="mt-md-4 ms-1 ps-2">
+                  <span class="me-md-3 me-1"
+                    ><i class="fa-solid fa-location-pin"></i
+                  ></span>
+                  <span> 22 AL Auberge Street , Alex , Egypt</span>
+                </li>
+                <li class="mt-md-4 ms-md-5 ps-md-5 ps-2">
+                  <span class="ms-md-5 ms-3 me-md-3"
+                    ><i class="fa-solid fa-envelope"></i
+                  ></span>
+                  <span class="e-mail"> AL-Auberge-Hotel@yahoo.com</span>
+                </li>
+                <li class="mt-md-4 ms-md-5 ps-md-5">
+                  <span class="ms-5 me-md-3 me-2"
+                    ><i class="fa-solid fa-phone-flip"></i
+                  ></span>
+                  <span>001-000-000-000</span>
+                </li>
+              </ul>
+              <div class="social my-5 me-3">
+                <ul class="d-flex">
+                  <li class="me-md-3 me-2">
+                    <i class="fa-brands fa-twitter"></i>
+                  </li>
+                  <li class="me-md-3 me-2">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </li>
+                  <li class="me-md-3 me-2">
+                    <i class="fa-brands fa-instagram"></i>
+                  </li>
+                  <li class="me-md-3 me-2">
+                    <i class="fa-brands fa-dribbble"></i>
+                  </li>
+                  <li class="me-md-3 me-2">
+                    <i class="fa-brands fa-pinterest"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 ps-md-3 p-0">
+            <form class="p-3 bord rounded-3">
+              <input
+                class="mt-3 form-control rounded-3"
+                type="text"
+                name="the-name"
+                placeholder="Enter Name"
+              />
+              <input
+                class="mt-3 form-control rounded-3"
+                type="email"
+                name="the-name"
+                placeholder="Enter Email"
+              />
+              <textarea
+                class="mt-3 form-control rounded-3"
+                name="message"
+                rows="5"
+                placeholder="Enter Message"
+              ></textarea>
+              <p class="my-md-4 my-2" id="the-message">
+                <span class="count text-yellow-dark shadow"></span>
+                Character Reamining
+              </p>
+              <button
+                class="bg-main text-light form-control change-width rounded-3 block ms-auto"
+                type="submit"
+              >
+                SEND MESSAGE
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <section class="footer text-light border-top border-secondary">
+      <div class="footer d-flex justify-content-center align-items-center">
+        <div class="container-fluid pb-3">
+          <h3 class="footer-header py-1 h2">get in touch</h3>
+          <p class="my-2">
+            We have been in the tourism business fro more than hundred years.
+            many actors and public figures visit us and we have more than twenty
+            branches around the world .
+          </p>
+          <p>
+            Enter Email here to be updated. We promise not to send you spam!
+          </p>
+          <div class="row">
+            <div class="col-md-8 my-3">
+              <form>
+                <div class="d-flex align-items-center gap-2 text-nowrap">
+                  <input
+                    id="email"
+                    type="email"
+                    class="form-control"
+                    formControlName="email"
+                    placeholder="Enter Your E-mail..............
+                  "
+                  />
+                  <button class="btn btn-danger" type="submit">send</button>
+                </div>
+              </form>
+            </div>
+            <ul
+              class="col-md-4 my-3 d-flex justify-content-center align-items-center"
+            >
+              <li class="ms-4">
+                <a><i class="fs-5 fa-brands fa-facebook"></i></a>
+              </li>
+              <li class="ms-4">
+                <a><i class="fs-5 fa-brands fa-instagram"></i></a>
+              </li>
+              <li class="ms-4">
+                <a><i class="fs-5 fa-brands fa-linkedin"></i></a>
+              </li>
+              <li class="ms-4">
+                <a><i class="fs-5 fa-brands fa-whatsapp"></i></a>
+              </li>
+            </ul>
+          </div>
+          <ul class="row g-3">
+            <li class="col-lg-4">
+              <i class="mx-2 fa-solid fa-location-dot"></i>
+              22 AL Auberge Street , Alex , Egypt
+            </li>
+            <li class="col-lg-4">
+              <i class="mx-2 fa-solid fa-phone"></i>001-000-000-000
+            </li>
+            <li class="col-lg-4">
+              <i class="mx-2 fa-solid fa-envelope"></i>
+              <span class="e-mail m-0 p-0"> AL-Auberge-Hotel@yahoo.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer container-fluid pay-details">
+        <div class="row text-center align-items-center">
+          <div class="col-md-7">
+            <ul class="row justify-content-center align-items-center p-0">
+              <li class="col-4">
+                <h3 class="h6 m-0 text-warning">Payment partners</h3>
+              </li>
+              <li class="col-2 px-2">
+                <img
+                  src="./images/pay/amazon-pay.png"
+                  class="w-100"
+                  alt="amazon-pay image"
+                />
+              </li>
+              <li class="col-2 px-2">
+                <img
+                  src="./images/pay/American-Express-Color.png"
+                  class="w-100"
+                  alt=""
+                />
+              </li>
+              <li class="col-2 px-2">
+                <img
+                  src="./images/pay/paypal.png"
+                  class="w-100"
+                  alt="paypal image"
+                />
+              </li>
+              <li class="col-2 px-2">
+                <img
+                  src="./images/pay/mastercard.webp"
+                  class="w-100"
+                  alt="mastercard image"
+                />
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-5">
+            <ul class="row justify-content-center align-items-center p-0">
+              <li class="col-6">
+                <h3 class="h6 m-0 text-warning">Get Deliveries</h3>
+              </li>
+              <li class="col-3">
+                <img
+                  src="./images/pay/get-google-play.png"
+                  class="w-100"
+                  alt="get-google-play image"
+                />
+              </li>
+              <li class="col-3">
+                <img
+                  src="./images/pay/get-apple-store.png"
+                  class="w-100"
+                  alt="get-apple-store image"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="copy-write shadow text-center border-top border-secondary py-3"
+      >
+        <p>
+          <b class="text-light fs-2">© AL Auberge Hotel developed by</b>
+          <b class="text-yellow fs-2 mx-2">Mariam Yasser</b>
+        </p>
+      </div>
+    </section>
+    <!-- js files: jquery , bootstrap , my js -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

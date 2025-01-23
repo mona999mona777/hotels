@@ -1,0 +1,404 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #232323;
+}
+ul {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+.e-mail:hover {
+  color: rgb(67, 67, 253) !important;
+  text-decoration: underline;
+}
+a {
+  text-decoration: none;
+}
+:root {
+  scroll-behavior: auto;
+}
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(35, 35, 35, 0.8);
+  /* background-color: #fff; */
+  transform: translateY(100%);
+  transition: transform 2s;
+}
+.inner {
+  border-top-left-radius: 180px;
+  border-top-right-radius: 180px;
+}
+.inner:hover .layer {
+  transform: translateY(0);
+}
+.branch:hover {
+  background-color: #fff;
+}
+.bord {
+  border: rgb(103, 103, 2) 2px solid;
+}
+::placeholder {
+  color: rgb(63, 63, 63) !important;
+}
+h2 {
+  color: rgb(242, 202, 146) !important;
+  font-weight: 500;
+}
+h3 {
+  color: rgb(247, 243, 127) !important;
+}
+.bg-main,
+.bg-main:hover,
+.bg-main:focus {
+  background-color: rgb(154, 154, 6);
+  border: solid rgb(83, 83, 24) 3px;
+}
+.border-main {
+  border: #232323;
+}
+.text-yellow {
+  color: yellow;
+}
+.text-yellow-dark {
+  color: rgb(154, 154, 6);
+}
+/*  section-one  */
+.sectionOne {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.inner-sectionone {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+.head-hotel {
+  width: 60%;
+  background-color: rgba(79, 71, 63, 0.5);
+  border: rgb(154, 154, 6) solid 3px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.imgo {
+  width: 100%;
+  height: 100vh;
+}
+.owl-carousel {
+  transition: all 1s !important;
+}
+/* 250px */
+.nav-side {
+  width: 0;
+  height: 100%;
+  background-color: rgba(35, 35, 35, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 30px;
+}
+.nav-side li a:hover,
+.nav-side .closebtn:hover {
+  color: #bda863;
+}
+.nav-open,
+.nav-side li a,
+.closebtn,
+.header-content span {
+  transition: all 1s;
+}
+.nav-open:hover {
+  color: #ffecad;
+}
+.header- span {
+  margin-left: 0;
+}
+.nav-side li {
+  padding-block: 20px;
+  padding-left: 5px;
+}
+.closebtn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+/* section-two */
+.accor {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+.accor h3 {
+  background-color: #232323;
+  border: rgb(154, 154, 6) 2px solid;
+  margin: 0;
+}
+.accor-body {
+  border: rgb(154, 154, 6) 2px solid;
+}
+.accor .myBrother {
+  background-color: rgb(255, 255, 255);
+}
+.accor .hid {
+  display: none;
+}
+/* fonts */
+.accor h3 {
+  font-size: 28px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+.accor p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(52, 52, 52);
+}
+/* section-three */
+.counter {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/Newfolder/candel.webp);
+  background-size: 100% 100%;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.counter span {
+  font-size: 30px;
+  font-weight: 500;
+}
+.social li {
+  padding: 10px;
+  border: solid 1px rgb(103, 103, 2);
+  color: white !important;
+  transition: all 1s;
+  border-radius: 50px;
+}
+.social li:hover {
+  background-color: rgb(154, 154, 6);
+  color: #fff;
+  border: solid 2px rgb(154, 154, 6);
+}
+form .form-control {
+  border-radius: 0;
+}
+.change-width {
+  width: 150px;
+}
+/* fonts */
+@media (max-width: 768px) {
+  .header {
+    height: 400px;
+  }
+  .header-content span {
+    padding-left: 2px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .header-content h1 {
+    font-family: "Lobster", serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+  }
+  .header-content p {
+    font-size: 10px;
+    font-weight: 400;
+    color: rgb(209, 209, 5) !important;
+  }
+  .header-content span {
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+  }
+  .nav-side .closebtn {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .nav-side li a {
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+  }
+
+  /* section-two   */
+  .accor h3 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .accor p {
+    font-size: 10px;
+    font-weight: 400;
+    color: rgb(33, 37, 41);
+  }
+  /* sectio-three */
+  .counter span {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  /* section-4 */
+  .contact-title h2 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .contact-title p {
+    font-size: 10px;
+    font-weight: 300;
+    color: white !important;
+  }
+  .contact-prag h3 {
+    font-size: 12px;
+    font-weight: 900;
+  }
+  .contact-prag p {
+    font-size: 10px;
+    font-weight: 400;
+    color: white !important;
+  }
+  .data li span {
+    font-size: 10px;
+    font-weight: 400;
+    color: white !important;
+  }
+  .form-control {
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  form #the-message {
+    font-size: 10px;
+    font-weight: 400;
+    color: white !important;
+  }
+  form .count {
+    font-size: 14px;
+    font-weight: 400;
+    border: rgb(154, 154, 6) solid 1px;
+    border-radius: 5px;
+    padding: 2px;
+  }
+  .change-width {
+    width: 100px;
+  }
+}
+@media (min-width: 768px) {
+  .contact-title h2 {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  .contact-title p {
+    font-size: 16px;
+    font-weight: 300;
+    color: white !important;
+  }
+  .contact-prag h3 {
+    font-size: 18px;
+    font-weight: 900;
+  }
+  .contact-prag p {
+    font-size: 16px;
+    font-weight: 400;
+    color: white !important;
+  }
+  .data li span {
+    font-size: 16px;
+    font-weight: 400;
+    color: white !important;
+  }
+  .form-control {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  form #the-message {
+    font-size: 16px;
+    font-weight: 400;
+    color: white !important;
+  }
+  form .count {
+    font-size: 20px;
+    font-weight: 400;
+    border: rgb(154, 154, 6) solid 1px;
+    border-radius: 5px;
+    padding: 2px;
+  }
+  .header-content h1 {
+    font-family: "Lobster", serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+  }
+  .header-content p {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(209, 209, 5) !important;
+  }
+  .header-content span {
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+  }
+  .nav-side .closebtn {
+    font-size: 36px;
+    font-weight: 400;
+    color: white;
+  }
+  .nav-side li a {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  .header-content p {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(209, 209, 5) !important;
+  }
+  .header-content span {
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+  }
+  .nav-side .closebtn {
+    font-size: 36px;
+    font-weight: 400;
+    color: white;
+  }
+  .nav-side li a {
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+  }
+}
+@media (min-width: 1050px) {
+  .header-content h1 {
+    font-family: "Lobster", serif;
+    font-size: 90px;
+    font-weight: 700;
+    color: white;
+  }
+}

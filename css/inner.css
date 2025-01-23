@@ -1,0 +1,65 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #232323;
+}
+.bord {
+  border: rgb(103, 103, 2) 2px solid;
+}
+.text-yellow {
+  color: yellow;
+}
+.text-yellow-dark {
+  color: rgb(154, 154, 6);
+}
+.btn-main,
+.btn-main:hover,
+.btn-main:focus {
+  border: rgb(103, 103, 2) 2px solid;
+  background-color: rgb(151, 151, 33);
+}
+.my-mav {
+  background-color: transparent !important;
+  box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-toggler {
+  border: 1px solid gray !important;
+}
+
+.navbar-toggler:focus {
+  border: 3px solid #000 !important;
+  box-shadow: 0 0 0 1px rgb(249, 226, 226) !important;
+}
+
+.navbar-toggler-icon {
+  color: rgba(222, 184, 184, 0.5) !important;
+}
+
+.the-heigth {
+  height: 70vh;
+}
+
+.content {
+  box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.5);
+  background-color: #232323;
+  width: 65%;
+}
+
+h1 {
+  color: rgb(103, 103, 2);
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+}
+.ssize {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}

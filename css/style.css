@@ -1,0 +1,97 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #232323;
+}
+.bord {
+  border: rgb(103, 103, 2) 2px solid;
+}
+.text-yellow {
+  color: yellow;
+}
+.color {
+  color: rgb(154, 154, 6);
+}
+.parent {
+  width: 380px;
+}
+
+.content {
+  background-color: #232323;
+  box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.5);
+  /* box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1); */
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.input-style {
+  border: 1px solid #ced4da;
+  background-color: transparent;
+  color: #fff;
+}
+
+.input-style:focus {
+  border: rgb(103, 103, 2) 2px solid;
+  outline: none;
+}
+
+.button-style {
+  border: rgb(103, 103, 2) 2px solid;
+  transition: all 0.5s;
+  background-color: transparent;
+}
+
+.button-style:hover {
+  background-color: rgb(103, 103, 2);
+  color: #fff;
+}
+
+/* fonts */
+h1 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+}
+input,
+button,
+p {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* media*/
+@media (min-width: 768px) {
+  .parent {
+    width: 500px;
+  }
+}
+
+@media (min-width: 992px) {
+  .parent {
+    width: 700px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .parent {
+    width: 900px;
+  }
+}

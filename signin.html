@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>signin</title>
+    <!-- the font "Titillium web"-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawsome file -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- bootstrap css file  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- my css file -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="parent m-auto">
+      <div class="container p-5 mt-5 content text-center bord rounded-5">
+        <h1 class="color mt-3">Smart Login System</h1>
+        <input
+          id="the-Email"
+          class="w-100 p-2 mt-2 rounded input-style"
+          type="email"
+          name="the-emil"
+          placeholder="Enter your email"
+        />
+        <input
+          id="the-pass"
+          class="w-100 p-2 mt-3 rounded input-style"
+          type="password"
+          name="the-password"
+          placeholder="Enter your password"
+        />
+        <button id="send" class="w-100 p-2 color mt-4 rounded button-style">
+          login
+        </button>
+
+        <p id="the-word" class="text-center my-3"></p>
+
+        <p class="text-light mt-3">
+          Don’t have an account? <a href="signup.html">Sign Up</a>
+        </p>
+      </div>
+    </div>
+
+    <script src="js/signin.js"></script>
+  </body>
+</html>
