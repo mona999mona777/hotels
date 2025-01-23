@@ -42,7 +42,7 @@ sendInput.addEventListener("click", function () {
         userInfo.push(theUser);
         localStorage.setItem("daataBase", JSON.stringify(userInfo));
         setTimeout(function () {
-          window.location = "../signin.html";
+          window.location = "./signin.html";
         }, 500);
       }
       //not empty locl storage
@@ -60,7 +60,7 @@ sendInput.addEventListener("click", function () {
           userInfo.push(theUser);
           localStorage.setItem("daataBase", JSON.stringify(userInfo));
           setTimeout(function () {
-            window.location = "../signin.html";
+            window.location = "./signin.html";
           }, 500);
         }
       }
